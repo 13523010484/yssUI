@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../static/fonts/iconfont.woff') format('woff'),
+        url('../../static/fonts/iconfont.ttf') format('truetype');
+    font-weight: normal;
+    font-display: auto;
+    font-style: normal;
+}
+
+
+[class*=" yss-icon-"],
+[class^=yss-icon-] {
+    font-family: 'iconfont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: baseline;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.yss-icon-call:before {
+    content: "\e70f"
+}
+
+.yss-icon-phone:before {
+    content: "\e70b"
+}
+
+.yss-icon-message:before {
+    content: "\e70e"
+}
+
+.yss-icon-tel:before {
+    content: "\e70a"
+}
+
+.yss-icon-location:before {
+    content: "\e70c"
+}
+
+.yss-icon-bank:before {
+    content: "\e70d"
+}
